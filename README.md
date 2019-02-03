@@ -1,3 +1,3 @@
 # tensorFlow-react
 
-Object detection
+Real-Time Custom Object Detection with TensorFlow.js
