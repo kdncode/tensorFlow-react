@@ -101,6 +101,7 @@ class App extends React.Component {
           0.5 // score_threshold
         )
       })
+      
       const indexes = indexTensor.dataSync()
       indexTensor.dispose()
       // restore previous backend
