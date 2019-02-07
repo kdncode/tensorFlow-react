@@ -155,6 +155,7 @@ class App extends React.Component {
       for (let j = 0; j < 4; j++) {
         bbox[j] = boxes[indexes[i] * 4 + j]
       }
+      
       const minY = bbox[0] * height
       const minX = bbox[1] * width
       const maxY = bbox[2] * height
