@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import MagicDropzone from 'react-magic-dropzone'
-
 import * as tf from '@tensorflow/tfjs'
 import './styles.css'
 
