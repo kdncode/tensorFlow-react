@@ -34,6 +34,7 @@ class App extends React.Component {
     canvas.height = image.height
 
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height)
+    
     if (naturalWidth > naturalHeight) {
       ctx.drawImage(
         image,
@@ -115,7 +116,7 @@ class App extends React.Component {
         labels
       )
 
-      // Font options.
+      // Font options
       const font = '16px sans-serif'
       ctx.font = font
       ctx.textBaseline = 'top'
