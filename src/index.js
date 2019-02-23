@@ -126,10 +126,12 @@ class App extends React.Component {
         const y = prediction.bbox[1]
         const width = prediction.bbox[2]
         const height = prediction.bbox[3]
+        
         // Draw the bounding box.
         ctx.strokeStyle = '#00FFFF'
         ctx.lineWidth = 4
         ctx.strokeRect(x, y, width, height)
+        
         // Draw the label background.
         ctx.fillStyle = '#00FFFF'
         const textWidth = ctx.measureText(prediction.class).width
