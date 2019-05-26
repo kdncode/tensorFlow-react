@@ -54,4 +54,6 @@ python flow --model cfg/yolo.cfg --load bin/yolov2.weights --demo video_file_nam
 ## License
 [Darkflow](https://github.com/thtrieu/darkflow/blob/master/README.md)
 
-[Video Credit](https://www.youtube.com/watch?v=tC7EucOFRok)
+[Video credit](https://www.youtube.com/watch?v=tC7EucOFRok)
+
+[Photo credit](https://unsplash.com/)
