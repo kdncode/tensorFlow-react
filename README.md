@@ -1,6 +1,8 @@
+![Sample](https://github.com/kdncode/tensorFlow-react/blob/master/final.gif)
 # YOLO v2
 
-Foobar is a Python library for dealing with word pluralization.
+YOLO9000 is a high speed, real time detection algorithm that can detect on OVER 9000! (object categories).
+[Read more](https://arxiv.org/pdf/1612.08242.pdf)
 
 ## Requirements
 
@@ -51,3 +53,5 @@ python flow --model cfg/yolo.cfg --load bin/yolov2.weights --demo video_file_nam
 - --saveVideo indicates to save a name video file, which has the boxes around objects
 ## License
 [Darkflow](https://github.com/thtrieu/darkflow/blob/master/README.md)
+
+[Video Credit](https://www.youtube.com/watch?v=tC7EucOFRok)
